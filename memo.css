@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: 'メイリオ','Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+}
+
+@media screen and (max-width : 480px){
+  *{
+    margin: 0%;
+    padding: 0%;
+  }
+#header {
+  display: block;
+}
+img {
+  text-align: center;
+}
+#main-nav,#mongon-d {
+  font-size: 80%;
+}
+#main-a {
+  font-size: 80%;
+  padding: 0;
+}
+#mongon-b {
+  width: 2rem;
+}
+#mongon-c {
+  width: 2rem;
+}
+#modoru {
+  position: absolute;
+  right: 80%;
+}
+#mongon-d {
+  position: absolute;
+  top: 300%;
+  margin-left: 0%;
+  padding: 1rem;
+}
+}
+@media (min-width: 600px) {
+  .pc-menu {
+      display: block;
+      margin-left: auto;
+      }
+      .sp-menu {
+          display: none;
+      }
+      #main img {
+        margin-left: auto;
+        margin-right: auto;
+      }
+  }
+  h1 {
+    width: 1px;
+    height: 1px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: absolute;
+    }
+    #header {
+      display: flex;
+      justify-content: space-between;
+    }
+    #header img {
+      margin: 5px;
+    }
+    #nav ul {
+      display: flex;
+      justify-content: flex-end;
+      vertical-align: top;
+      margin: 5px;
+    }
+    #nav li {
+      margin: 5px;
+      padding: 15px;
+      align-items: flex-start;
+      border: thin;
+      border-style: solid;
+      border-color: gainsboro;
+      display: inline-block;
+      width: 120px;
+      text-align: center;
+    }
+    #nav li a {
+      color: black;
+    }
+    #nav a:hover {
+      opacity: 0.5;
+    }
+    #main img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #main-nav {
+      position: relative;
+      top: -80px;
+      padding-left: 20px;
+      color: white;
+      font-weight: 550;
+    }
+    #main-a {
+     text-align: center;
+     line-height: 3em;
+     font-weight: 500;
+     padding-top: 3em;
+     padding-bottom: 3em;
+     font-size: 18px;
+    }
+    .oshirase {
+      position: relative;
+      left: 3em;
+      line-height: 3em;
+      padding-top: 51px;
+    }
+    #div-a, #div-b {
+      width: 13rem;
+      line-height: 16px;
+      padding-top: 1rem;
+      border-bottom: 8px solid;
+      border-color: gray;
+    }
+    #div-a a {
+      line-height: 2rem;
+    }
+    .oshirase li a {
+      color: black;
+    }
+    .oshirase li a:hover {
+      opacity: 0.5;
+    }
+    article li {
+      line-height: 2rem;
+      font-size: 14px;
+    }
+    .oshirase {
+      width: 25%;
+    }
+    .section .onsen img {
+      float: right;
+      margin-top: -300px;
+    }
+    #mongon-a {
+      width: 20%;
+      position: relative;
+      right: -70%;
+      bottom: -200px;
+      color: white;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.5rem;
+    }
+    .section .osyokuji img {
+      float: right;
+    }
+    #mongon-b {
+      position: relative;
+      left: 78%;
+      bottom: -390px;
+      color: white;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.5rem;
+      width: 22.5rem;
+    }
+    .section .oheya img {
+      margin-left: 20%;
+    }
+    #mongon-c {
+      width: 400px;
+      position: relative;
+      right: -22%;
+      top: -110px;
+      color: white;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.5rem;
+    }
+    .footer {
+      display: flex;
+    }
+    #footer-a {
+      display: flex;
+      margin-left: 5%;
+      margin-top: 5%;
+    }
+    #rogof {
+      padding-right: 10px;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+    }
+    #jyusyo h3 {
+      padding-bottom: 10%;
+    }
+    #sns li img {
+      width: 2.5em;
+      margin-top: 20%;
+      float: left;
+      display: flex;
+      padding: 1px;
+    }
+    #sns li img:hover {
+      opacity: 0.5;
+    }
+    #mongon-d {
+      margin-left: 10%;
+      line-height: 3em;
+      text-align: center;
+      font-size: 18px;
+      width: 60rem;
+      position: absolute;
+      left: 500px;
+    }
+    #kakomi {
+      width: 16rem;
+      margin-left: 3rem;
+    }
+    #modoru {
+      margin-left: auto;
+      margin-top: 30%;
+    }
+    #modoru a {
+      color: black;
+    }
+    #modoru a:hover {
+      opacity: 0.5;
+    }
+    #kopiraito {
+      margin-top: 3rem;
+      text-align: center;
+      font-family: none;
+    }
+    .sp-menu {
+      margin-left: auto;
+    }
+    .sp-menu #open {
+      font-size: 32px;
+      line-height: 32px;
+      cursor: pointer;
+    }
+    .overlay {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background: rgba(255, 255, 255, 0.95);
+      text-align: center;
+      padding: 64px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity .6s;
+    }
+    #close {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      font-size: 32px;
+      cursor: pointer;
+      opacity: 0;
+      z-index: 10;
+    }
+    #close.show {
+      opacity: 1;
+      position: fixed;
+    } 
+    .overlay ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+    }
+    .overlay li {
+      margin-top: 24px;
+      opacity: 0;
+      transform: translateY(16px);
+      transition: opacity .3s, transform .3s;
+    }
+    .show {
+      display: block;
+      opacity: 1;
+      z-index: 9;
+    }
+    .overlay.show li {
+      opacity: 1;
+      transform: none;
+    }
+    .overlay.show li:nth-child(1) {
+      transition-delay: .1s;
+    }
+    .overlay.show li:nth-child(2) {
+      transition-delay: .2s;
+    }
+    .overlay.show li:nth-child(3) {
+      transition-delay: .3s;
+    }
+    .overlay.show li:nth-child(4) {
+      transition-delay: .4s;
+    }
+    .overlay.show li:nth-child(5) {
+      transition-delay: .5s;
+    }
